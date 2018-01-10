@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exploding Lasers</title>
+    <link rel='stylesheet' href='./css/style.css'>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <canvas id="canvas" width="400" height="500"></canvas>
+        <script type='text/javascript' src='js/main.js'></script>
+        <script type='text/javascript' src='js/controller.js'></script>
+    </header>
+
+<section id='boxes'>
+<div class='container'>
+    <div class='box'>
+    <input class='button_1' type="button" value="arrow-LEFT" onmousedown="moveleft()" onmouseup="stopMove()" ontouchstart="moveleft()"/>
+    <input class='button_1' type="button" value="arrow-RIGHT" onmousedown="moveright()" onmouseup="stopMove()" ontouchstart="moveright()"/>
+    </div>
+
+    <div class='box'>
+        <input class='button_3' type="button" value="arrow-UP" onmousedown="movedown()" onmouseup="stopMove()" ontouchstart="movedown()" />
+    </div>
+</div>
+</section>
+
+</body>
+</html>
